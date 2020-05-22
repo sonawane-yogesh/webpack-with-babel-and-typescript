@@ -1,0 +1,36 @@
+{
+  "name": "babel-webpack-setup",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "webpack": "webpack",
+    "build": "babel ./dist/scripts/index-page.js --out-file ./out/index-page.js",
+    "dev-server": "webpack-dev-server",
+    "watch-ts": "tsc"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/preset-env": "^7.9.6",
+    "@types/core-js": "^2.5.3",
+    "core-js": "^3.6.5",
+    "regenerator-runtime": "^0.13.5",
+    "webpack-cli": "^3.3.11"
+  },
+  "dependencies": {
+    "@babel/cli": "^7.8.4",
+    "@babel/core": "^7.9.6",
+    "@types/axios": "^0.14.0",
+    "@types/jquery": "^3.3.38",
+    "@types/typescript": "^2.0.0",
+    "@types/webpack": "^4.41.13",
+    "@types/webpack-dev-server": "^3.11.0",
+    "axios": "^0.19.2",
+    "babel-loader": "^8.1.0",
+    "typescript": "^3.8.3",
+    "webpack": "^4.43.0",
+    "webpack-dev-server": "^3.11.0"
+  }
+}

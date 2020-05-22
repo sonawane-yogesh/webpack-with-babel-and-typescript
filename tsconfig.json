@@ -1,0 +1,29 @@
+{
+    "compileOnSave": true,
+    "compilerOptions": {
+        "module": "ESNext",
+        "esModuleInterop": true,
+        "target": "ES2017",
+        "noImplicitAny": true,
+        "moduleResolution": "Node",
+        "outDir": "./public/dist",
+        "baseUrl": ".",
+        "watch": true,
+        "paths": {
+            "*": [
+                "node_modules/*",
+                "src/types/*"
+            ]
+        },
+        "lib": [
+           "ES6", "DOM"
+        ]
+    },
+    "include": [
+        "src/**/*", "jest.config.js"
+    ],
+    "exclude": [
+        // "**/__tests__/**/*", // uncomment only if you need to export tests to dist...
+        "node_modules"
+    ]
+}
